@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Sobre Nós - Secretaria de Esportes de Araquari</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f7fb;
+      color: #002855;
+    }
+
+    header {
+      background-color: #002855;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 3rem;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo img {
+      height: 55px;
+    }
+
+    .logo h1 {
+      font-size: 1.5rem;
+      margin: 0;
+      font-weight: 700;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #00a2ff;
+    }
+
+    main {
+      padding: 4rem 6rem;
+      background: linear-gradient(to right, rgba(0,40,85,0.7), rgba(0,40,85,0.4)),
+                  url('imagens/esporte.jpg') no-repeat center/cover;
+      color: white;
+      min-height: 70vh;
+      border-bottom: 5px solid #00a2ff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    main h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      text-shadow: 1px 1px 6px rgba(0,0,0,0.3);
+    }
+
+    main p {
+      font-size: 1.15rem;
+      max-width: 900px;
+      line-height: 1.8;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    }
+
+    section {
+      padding: 3rem 6rem;
+      background-color: white;
+      text-align: center;
+    }
+
+    section h3 {
+      font-size: 1.8rem;
+      color: #002855;
+      margin-bottom: 1rem;
+    }
+
+    section p {
+      max-width: 800px;
+      margin: 0 auto;
+      font-size: 1.05rem;
+      line-height: 1.8;
+      color: #333;
+    }
+
+    footer {
+      background-color: #002855;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    button {
+      background: linear-gradient(90deg, #00a2ff, #0077cc);
+      border: none;
+      color: white;
+      padding: 0.8rem 1.8rem;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.3s;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      margin-top: 2rem;
+    }
+
+    button:hover {
+      background: linear-gradient(90deg, #0090e0, #005fa8);
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="imagens/prefeitura.jpg" alt="Prefeitura de Araquari">
+      <h1>Prefeitura de Araquari</h1>
+    </div>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="contatos.html">Contatos</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Secretaria de Esportes de Araquari</h2>
+    <p>
+      A Secretaria Municipal de Esportes de Araquari é responsável por promover, desenvolver e incentivar a prática esportiva em todo o município.
+      Nosso compromisso é fomentar o bem-estar, a inclusão social e o desenvolvimento físico e mental de crianças, jovens e adultos através do esporte.
+    </p>
+  </main>
+
+  <section>
+    <h3>Nosso Propósito</h3>
+    <p>
+      Acreditamos que o esporte é uma poderosa ferramenta de transformação social.  
+      Atuamos em conjunto com escolas, associações e comunidades locais para oferecer programas esportivos acessíveis e de qualidade.
+      Além disso, realizamos campeonatos municipais, apoiamos atletas de destaque e incentivamos a criação de novas modalidades esportivas na cidade.
+    </p>
+
+    <h3 style="margin-top: 3rem;">Projetos e Iniciativas</h3>
+    <p>
+      Entre nossas principais ações estão o Programa “Araquari em Movimento”, que leva atividades esportivas aos bairros,  
+      e o “Talentos do Esporte”, voltado à formação de jovens atletas.  
+      Trabalhamos diariamente para tornar Araquari referência em esporte e qualidade de vida.
+    </p>
+
+    <button onclick="window.location.href='index.html'">Voltar à Página Inicial</button>
+  </section>
+
+  <footer>
+    &copy; 2025 Prefeitura de Araquari - Secretaria Municipal de Esportes
+  </footer>
+</body>
+</html>
